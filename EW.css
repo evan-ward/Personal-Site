@@ -1,0 +1,111 @@
+html body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+
+
+}
+
+.container {
+	height: 1060px;
+	width: 100%;
+	background: url("/Users/esward1/Desktop/DevMountain/Personal Site/media/images/Shells.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+.box {
+	width: 25%;
+	height: 800px;
+	border: 1px solid #fff;
+	/*margin: 0px 250px 0px 0px;*/
+	/*float: right;*/
+	/*background-color: rgba(0, 0, 0, 0.30);*/
+	position: absolute;
+	right: 95px;
+	top: 100px;
+
+}
+
+.head {
+
+}
+
+.buttons {
+	display: inline-block;
+	margin: 5px;
+	background-color: rgba(255, 255, 255, 1);
+	width: 25px;
+	height: 25px;
+	padding: 12px;
+	color: #fff;
+	text-align: center;
+	border-radius: 100%;
+	font-size: 16px;
+	/*font-family: "FontAwesome";*/
+}
+
+i {
+	font-family: "FontAwesome";
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+}
+
+.buttons:hover {
+
+}
+
+.content {
+	margin: 0 auto;
+	padding: 20px;
+	color: #fff;
+	font-family: Helvetica;
+}
+
+.foot {
+
+}
+
+.below {
+	width: 100%;
+	height: 1060px;
+	/*margin-top: 1060px;*/
+	background-color: rgba(255, 255, 255, 0.30);
+	top: 1060px;
+}
+
+.navbar {
+	top: 5px;
+}
+
+.link-bar {
+	margin-left: 10%;
+	font-family: Helvetica;
+	color: #bbb;
+
+}
+
+@media screen and(max-width: 480px) {
+	.box {
+		width: 100%;
+		margin: 0 auto;
+		top: 0;
+		right: 0;
+		position: absolute;
+	}
+}
+
+
+
+
+
